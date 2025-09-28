@@ -14,7 +14,6 @@ class Sieve:
             primes = list(self.primes_up_to(limit))
             if len(primes) > n:
                 return primes[n]
-            print('we got here ', limit)
             limit *= 2
 
     def primes_up_to(self, limit):
